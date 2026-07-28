@@ -116,7 +116,12 @@ footer .icon{
     } */
 /* --------------- END USER PREFERS REDUCED MOTION QUERY --------------- */
 
-
+@supports (display: grid) {
+    main {
+        display: grid;
+        gap: 1em;
+    }
+}
 
 /* ----- TEXT ----- */
 p, small{
