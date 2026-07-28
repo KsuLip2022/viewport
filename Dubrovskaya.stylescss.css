@@ -203,7 +203,7 @@ img{
 /* ---------- MEDIUM SCREEN STYLES ---------- */
 /* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
 
-@media (min-width: 620px){
+@media (min-width: 620px) and (max-width: 1380px){
     header, footer{
         background-color: var(--black);
         color: var(--white);
